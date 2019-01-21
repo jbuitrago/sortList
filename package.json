@@ -1,0 +1,21 @@
+{
+  "name": "sortList",
+  "version": "1.0.0",
+  "description": "Create a single page application that displays a list of items. These items must include a picture and a description",
+  "main": "app.js",
+  "repository": "https://github.com/jbuitrago/sortList.git",
+  "author": "Jorge Buitrago <buitrago.jorge@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.2.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "4.8.4",
+    "multer": "^1.4.1",
+    "nodemon": "^1.18.9"
+  }
+}
