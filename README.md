@@ -17,7 +17,7 @@ On a page refresh action, it should be displayed the last state of the list.
 State data should be stored in the backend.
 
 
-#Install 
+# Install 
 
 node 8
 
@@ -25,13 +25,8 @@ mongodb
 
 yarn
 
-nodemon
 
-express
-
-mongose
-
-#clone
+# clone
 
 git clone https://github.com/jbuitrago/sortList.git
 
@@ -39,7 +34,7 @@ cd sortList
 
 gt branch develop
 
-#With Docker
+# With Docker
 
 docker-compose down 
 
@@ -49,7 +44,7 @@ docker-compose up
 
 running in http://localhost:3000
 
-#Without Docker
+# Without Docker
 
 yarn install
 
